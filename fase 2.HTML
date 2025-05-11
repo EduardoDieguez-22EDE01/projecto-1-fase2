@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+<body>
+<center>
+</body>
+</html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resumen de Etiquetas HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #aaa;
+            padding: 8px;
+            text-align: left;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 5px;
+        }
+        form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Resumen de Etiquetas HTML</h1>
+
+    <h2>1. Etiquetas Básicas</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Inicio</th>
+            <th>Cierre</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>html</td>
+            <td><code>&lt;html&gt;</code></td>
+            <td><code>&lt;/html&gt;</code></td>
+            <td>Contenedor principal del documento HTML.</td>
+        </tr>
+        <tr>
+            <td>head</td>
+            <td><code>&lt;head&gt;</code></td>
+            <td><code>&lt;/head&gt;</code></td>
+            <td>Contiene metadatos del documento.</td>
+        </tr>
+        <tr>
+            <td>body</td>
+            <td><code>&lt;body&gt;</code></td>
+            <td><code>&lt;/body&gt;</code></td>
+            <td>Contiene el contenido visible de la página.</td>
+        </tr>
+        <tr>
+            <td>title</td>
+            <td><code>&lt;title&gt;</code></td>
+            <td><code>&lt;/title&gt;</code></td>
+            <td>Título de la página que aparece en la pestaña del navegador.</td>
+        </tr>
+        <tr>
+            <td>p</td>
+            <td><code>&lt;p&gt;</code></td>
+            <td><code>&lt;/p&gt;</code></td>
+            <td>Define un párrafo de texto.</td>
+        </tr>
+    </table>
+
+    <p>Ejemplo de etiqueta básica:</p>
+    <p>Este es un párrafo utilizando la etiqueta <code>&lt;p&gt;</code>.</p>
+
+    <h2>2. Etiquetas de Tablas</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Inicio</th>
+            <th>Cierre</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>table</td>
+            <td><code>&lt;table&gt;</code></td>
+            <td><code>&lt;/table&gt;</code></td>
+            <td>Define una tabla.</td>
+        </tr>
+        <tr>
+            <td>tr</td>
+            <td><code>&lt;tr&gt;</code></td>
+            <td><code>&lt;/tr&gt;</code></td>
+            <td>Define una fila en una tabla.</td>
+        </tr>
+        <tr>
+            <td>td</td>
+            <td><code>&lt;td&gt;</code></td>
+            <td><code>&lt;/td&gt;</code></td>
+            <td>Define una celda en una fila.</td>
+        </tr>
+        <tr>
+            <td>th</td>
+            <td><code>&lt;th&gt;</code></td>
+            <td><code>&lt;/th&gt;<e/code></td>
+            <td>Define una celda de encabezado en una fila.</td>
+        </tr>
+    </table>
+
+    <p>Ejemplo de tabla:</p>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>María</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <h2>3. Etiquetas de Listas</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Inicio</th>
+            <th>Cierre</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>ul</td>
+            <td><code>&lt;ul&gt;</code></td>
+            <td><code>&lt;/ul&gt;</code></td>
+            <td>Lista no ordenada.</td>
+        </tr>
+        <tr>
+            <td>ol</td>
+            <td><code>&lt;ol&gt;</code></td>
+            <td><code>&lt;/ol&gt;</code></td>
+            <td>Lista ordenada.</td>
+        </tr>
+        <tr>
+            <td>li</td>
+            <td><code>&lt;li&gt;</code></td>
+            <td><code>&lt;/li&gt;</code></td>
+            <td>Elemento de lista.</td>
+        </tr>
+    </table>
+
+    <p>Ejemplo de lista no ordenada:</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <p>Ejemplo de lista ordenada:</p>
+    <ol>
+        <li>Inicio</li>
+        <li>Desarrollo</li>
+        <li>Conclusión</li>
+    </ol>
+
+    <h2>4. Etiquetas de Formularios</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Inicio</th>
+            <th>Cierre</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>form</td>
+            <td><code>&lt;form&gt;</code></td>
+            <td><code>&lt;/form&gt;</code></td>
+            <td>Define un formulario HTML.</td>
+        </tr>
+        <tr>
+            <td>input</td>
+            <td><code>&lt;input&gt;</code></td>
+            <td>No tiene</td>
+            <td>Campo de entrada de datos.</td>
+        </tr>
+        <tr>
+            <td>label</td>
+            <td><code>&lt;label&gt;</code></td>
+            <td><code>&lt;/label&gt;</code></td>
+            <td>Etiqueta descriptiva para un campo.</td>
+        </tr>
+        <tr>
+            <td>select</td>
+            <td><code>&lt;select&gt;</code></td>
+            <td><code>&lt;/select&gt;</code></td>
+            <td>Menú desplegable.</td>
+        </tr>
+        <tr>
+            <td>option</td>
+            <td><code>&lt;option&gt;</code></td>
+            <td><code>&lt;/option&gt;</code></td>
+            <td>Opción dentro de un menú desplegable.</td>
+        </tr>
+    </table>
+
+    <p>Ejemplo de formulario:</p>
+    <form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="correo">Correo:</label><br>
+        <input type="email" id="correo" name="correo"><br><br>
+
+        <label for="opcion">Selecciona una opción:</label><br>
+        <select id="opcion" name="opcion">
+            <option value="a">Opción A</option>
+            <option value="b">Opción B</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</center>
+</body>
+</html>
